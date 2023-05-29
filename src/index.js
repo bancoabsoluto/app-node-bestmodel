@@ -20,7 +20,7 @@ const server = async () => {
         await connect();
         routes(app);
 
-        server.listen(3001, () => {
+        server.listen(3000, () => {
             console.log('Estou rodando');
         });        
     } catch (error) {
