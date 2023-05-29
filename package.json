@@ -1,0 +1,21 @@
+{
+  "name": "bancoabsoluto",
+  "version": "1.0.0",
+  "description": "Banco Absoluto",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development nodemon src/index.js",
+    "server": "node src/index.js"
+  },
+  "author": "Tiziano Peres",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mariadb": "^3.1.2",
+    "nodemon": "^2.0.22"
+  }
+}
